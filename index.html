@@ -1,23 +1,1108 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
+
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "FinancialService",
+          "@id": "https://ins.reliabledone.com/dental-insurance-period#service",
+          "name": "치아보험 보장기간 및 다이렉트 통합 비교 분석 센터",
+          "description": "국내 주요 생명보험 및 손해보험사의 치아보험 보장기간, 면책 및 감액기간, 임플란트와 크라운 치료 보장 개시 시점, 연령별 평균 납입 비용 비교 데이터를 제공하는 공인 분석 센터입니다.",
+          "serviceType": "Dental Insurance Period and Coverage Comparison",
+          "areaServed": {
+            "@type": "Country",
+            "name": "KR"
+          },
+          "provider": {
+            "@type": "Organization",
+            "name": "치아보험 보장기간 통합 연구소",
+            "url": "https://ins.reliabledone.com/dental-insurance-period"
+          },
+          "url": "https://ins.reliabledone.com/dental-insurance-period",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.96",
+            "reviewCount": "3820"
+          },
+          "priceRange": "KRW 0 (무료 맞춤 비교 견적 및 보장기간 계산기 서비스)"
+        },
+        {
+          "@type": "Article",
+          "@id": "https://ins.reliabledone.com/dental-insurance-period#article",
+          "headline": "치아보험 보장기간 완벽 분석 가이드: 면책 감액기간 및 연령별 보험료 비교",
+          "description": "치아보험 가입 시 반드시 파악해야 하는 보장개시일, 면책기간(90일), 감액기간(1년~2년), 갱신형과 비갱신형 만기 구조, 보철치료(임플란트, 브릿지, 틀니) 및 보존치료(크라운, 인레이, 레진)의 보장기간 설정 기준을 상세히 전달합니다.",
+          "inLanguage": "ko-KR",
+          "datePublished": "2026-01-15T09:00:00+09:00",
+          "dateModified": "2026-03-01T14:30:00+09:00",
+          "author": {
+            "@type": "Organization",
+            "name": "금융보험 리서치 분석팀"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "치아보험 보장기간 통합 연구소"
+          },
+          "mainEntityOfPage": "https://ins.reliabledone.com/dental-insurance-period"
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://ins.reliabledone.com/dental-insurance-period#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "치아보험 가입 후 언제부터 100% 전액 보장이 가능한가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "치아보험은 가입 즉시 보장되지 않으며 면책기간과 감액기간을 거쳐야 합니다. 통상 가입일로부터 90일까지는 면책기간으로 보험금이 지급되지 않으며, 충치 및 신경치료 등 보존치료는 가입 후 1년(12개월) 이후부터, 임플란트나 브릿지 등 보철치료는 가입 후 2년(24개월) 이후부터 감액 없이 100% 정상 보장 금액이 지급됩니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "치아보험 보장기간 중 갱신형과 비갱신형의 가장 큰 차이점은 무엇인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "갱신형 치아보험은 5년, 10년, 20년 주기로 갱신되며 초기 납입 비용이 매우 저렴한 대신 연령 증가와 손해율 변동에 따라 갱신 시점에 요금이 인상됩니다. 반면 비갱신형은 만기(80세, 90세 등)까지 동일한 금액을 납부하지만 초기 월 요금이 다소 높습니다. 단기 치료 계획이 있는 경우 5년~10년 갱신형이 유리하며, 평생 관리를 원한다면 장기 갱신 주기나 비갱신형 선택이 권장됩니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "이미 치과 치료를 받았거나 발치한 치아도 보장기간 내 혜택을 받을 수 있나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "치아보험은 가입 이전에 이미 치료를 진단받았거나 발치 완료된 치아에 대해서는 보장기간 내라 하더라도 원칙적으로 보험금이 지급되지 않습니다. 보험 가입 후 새롭게 진단받아 치료한 영구치에 한해 면책 및 감액기간 조건을 충족했을 때 보장됩니다. 따라서 발치 전 및 진단 전에 가입하여 보장 개시일을 확보하는 것이 필수입니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "치아보험 보장기간 만기 전 중도 해지 시 환불 및 위약금 발생 여부는 어떻게 되나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "대부분의 치아보험 상품은 순수보장형 구조로 설계되어 중도 해지 시 별도의 위약금은 청구되지 않으나, 납입했던 금액에 대한 해약환급금이 거의 없거나 매우 적습니다. 만기환급형 상품의 경우 약정 만기 시점에 환급금이 지급되지만 월 납입 요금이 순수보장형보다 훨씬 비싸므로 실질적인 보장 혜택과 비용 효율성을 꼼꼼히 비교해야 합니다."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --primary-light: #3b82f6;
+            --primary-subtle: #eff6ff;
+            --secondary: #0f766e;
+            --secondary-light: #14b8a6;
+            --secondary-subtle: #f0fdfa;
+            --accent: #b45309;
+            --accent-subtle: #fffbeb;
+            --bg-base: #f8fafc;
+            --bg-surface: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #475569;
+            --text-sub: #64748b;
+            --border-color: #e2e8f0;
+            --border-highlight: #cbd5e1;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 14px rgba(0,0,0,0.06);
+            --shadow-lg: 0 10px 25px rgba(0,0,0,0.08);
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 16px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background: var(--bg-base); 
+            color: var(--text-main); 
+            line-height: 1.85; 
+            word-break: keep-all;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header, section, footer { 
+            max-width: 1080px; 
+            margin: 30px auto; 
+            padding: 40px; 
+            background: var(--bg-surface); 
+            border-radius: var(--radius-lg); 
+            box-shadow: var(--shadow-md); 
+            border: 1px solid var(--border-color);
+        }
+
+        header {
+            background: linear-gradient(135deg, #ffffff 0%, #f0fdfa 100%);
+            border-top: 5px solid var(--primary);
+            text-align: center;
+            padding: 50px 40px;
+        }
+
+        h1, h2, h3, h4 { 
+            color: var(--primary); 
+            font-weight: 800; 
+            line-height: 1.4;
+        }
+
+        h1 { 
+            font-size: 2.3rem; 
+            margin-bottom: 20px; 
+            letter-spacing: -0.02em;
+        }
+
+        h2 { 
+            font-size: 1.75rem; 
+            border-bottom: 2px solid var(--border-color); 
+            padding-bottom: 14px; 
+            margin-top: 45px; 
+            margin-bottom: 22px;
+            display: flex;
+            align-items: center;
+        }
+
+        h3 { 
+            font-size: 1.3rem; 
+            color: var(--secondary); 
+            background: var(--secondary-subtle);
+            border-left: 5px solid var(--secondary); 
+            padding: 10px 16px; 
+            margin-top: 30px; 
+            margin-bottom: 15px;
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+        }
+
+        h4 {
+            font-size: 1.1rem;
+            color: var(--text-main);
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        p, li, td, th, label, textarea { 
+            font-size: 1.02rem; 
+            color: var(--text-muted);
+        }
+
+        p {
+            margin-bottom: 18px;
+            text-align: justify;
+        }
+
+        ul, ol, dl { 
+            padding-left: 24px; 
+            margin-bottom: 24px; 
+        }
+
+        ul li, ol li { 
+            margin-bottom: 10px; 
+        }
+
+        dl { 
+            padding: 0;
+            margin: 25px 0;
+        }
+
+        dt { 
+            font-weight: 700; 
+            color: var(--primary); 
+            font-size: 1.15rem;
+            margin-top: 20px; 
+            background: var(--primary-subtle);
+            padding: 12px 18px;
+            border-radius: var(--radius-sm);
+            border-left: 4px solid var(--primary-light);
+        }
+
+        dd { 
+            margin-left: 0; 
+            margin-top: 8px;
+            padding: 12px 18px 20px 18px; 
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color); 
+        }
+
+        .highlight-box {
+            background: var(--primary-subtle);
+            border-left: 4px solid var(--primary);
+            padding: 24px;
+            margin: 28px 0;
+            border-radius: var(--radius-md);
+            border-top: 1px solid #dbeafe;
+            border-right: 1px solid #dbeafe;
+            border-bottom: 1px solid #dbeafe;
+        }
+
+        .info-card {
+            background: var(--secondary-subtle);
+            border: 1px solid #ccfbf1;
+            border-left: 4px solid var(--secondary);
+            padding: 22px;
+            margin: 24px 0;
+            border-radius: var(--radius-md);
+        }
+
+        .warning-card {
+            background: var(--accent-subtle);
+            border: 1px solid #fef3c7;
+            border-left: 4px solid var(--accent);
+            padding: 22px;
+            margin: 24px 0;
+            border-radius: var(--radius-md);
+        }
+
+        /* Timeline and visual chart CSS */
+        .timeline-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .timeline-step {
+            background: #ffffff;
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .timeline-step.active {
+            border-color: var(--primary-light);
+            background: var(--primary-subtle);
+        }
+
+        .timeline-step.completed {
+            border-color: var(--secondary);
+            background: var(--secondary-subtle);
+        }
+
+        .step-number {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            line-height: 32px;
+            border-radius: 50%;
+            background: var(--primary);
+            color: #ffffff;
+            font-weight: 700;
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+        }
+
+        .step-title {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--primary);
+            margin-bottom: 6px;
+        }
+
+        .step-desc {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        /* Pure CSS Bar Graph */
+        .chart-box {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 24px;
+            margin: 30px 0;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .chart-title {
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 1.15rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .bar-group {
+            margin-bottom: 16px;
+        }
+
+        .bar-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 6px;
+            color: var(--text-main);
+        }
+
+        .bar-track {
+            height: 22px;
+            background: #e2e8f0;
+            border-radius: 11px;
+            overflow: hidden;
+            display: flex;
+        }
+
+        .bar-fill {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 8px;
+            color: #ffffff;
+            font-size: 0.8rem;
+            font-weight: 700;
+            transition: width 0.6s ease;
+        }
+
+        .bar-blue { background: linear-gradient(90deg, #60a5fa, #1e40af); }
+        .bar-teal { background: linear-gradient(90deg, #2dd4bf, #0f766e); }
+        .bar-amber { background: linear-gradient(90deg, #fcd34d, #b45309); }
+
+        /* Tables */
+        table { 
+            width: 100%; 
+            border-collapse: separate; 
+            border-spacing: 0; 
+            margin: 28px 0; 
+            border-radius: var(--radius-md); 
+            overflow: hidden; 
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
+        }
+
+        th, td { 
+            padding: 15px 18px; 
+            text-align: left; 
+            vertical-align: middle;
+        }
+
+        th { 
+            background: #f1f5f9; 
+            color: var(--primary); 
+            font-weight: 700; 
+            font-size: 0.98rem;
+            border-bottom: 2px solid var(--border-highlight);
+            border-right: 1px solid var(--border-color); 
+        }
+
+        th:last-child { 
+            border-right: none; 
+        }
+
+        td {
+            border-bottom: 1px solid var(--border-color);
+            border-right: 1px solid var(--border-color);
+            background: #ffffff;
+        }
+
+        td:last-child {
+            border-right: none;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:nth-child(even) td { 
+            background: #f8fafc; 
+        }
+
+        tr:hover td { 
+            background: #eff6ff; 
+        }
+
+        a { 
+            color: var(--primary-light); 
+            text-decoration: none; 
+            font-weight: 600;
+            transition: color 0.2s ease, text-decoration 0.2s ease; 
+        }
+
+        a:hover { 
+            color: var(--primary); 
+            text-decoration: underline; 
+        }
+
+        .btn-cta {
+            display: inline-block;
+            margin: 25px auto;
+            padding: 16px 40px;
+            background: linear-gradient(135deg, var(--primary) 0%, #1e40af 100%);
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 1.15rem;
+            border: none;
+            border-radius: var(--radius-md);
+            box-shadow: 0 4px 15px rgba(30, 58, 138, 0.25);
+            transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.2s ease;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .btn-cta:hover {
+            background: linear-gradient(135deg, #1e3a8a 0%, #172554 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(30, 58, 138, 0.35);
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        /* Form */
+        form { 
+            background: #f8fafc; 
+            padding: 35px; 
+            border-radius: var(--radius-md); 
+            border: 1px solid var(--border-color); 
+            margin-top: 25px;
+        }
+
+        label { 
+            display: block; 
+            margin-bottom: 8px; 
+            font-weight: 700; 
+            color: var(--text-main); 
+            font-size: 0.98rem;
+        }
+
+        input[type="text"], input[type="tel"], input[type="number"], select, textarea {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 22px;
+            border: 1px solid var(--border-highlight);
+            border-radius: var(--radius-sm);
+            box-sizing: border-box;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            background: #ffffff;
+            font-size: 1rem;
+            color: var(--text-main);
+        }
+
+        input:focus, select:focus, textarea:focus {
+            border-color: var(--primary-light);
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+        }
+
+        .form-group { 
+            margin-bottom: 10px; 
+        }
+
+        .required-tag { 
+            color: #dc2626; 
+            font-size: 0.85rem; 
+            font-weight: 600;
+            margin-left: 6px; 
+        }
+
+        .checkbox-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-top: 8px;
+            margin-bottom: 22px;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            background: #ffffff;
+            padding: 12px 16px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            transition: background 0.15s, border-color 0.15s;
+        }
+
+        .checkbox-item:hover {
+            background: var(--primary-subtle);
+            border-color: var(--primary-light);
+        }
+
+        .checkbox-item input {
+            margin-right: 10px;
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .checkbox-item span {
+            font-size: 0.95rem;
+            color: var(--text-main);
+            font-weight: 500;
+        }
+
+        .nav-container {
+            background: #ffffff;
+            border-radius: var(--radius-md);
+            padding: 25px;
+            margin: 25px auto;
+            max-width: 1080px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .nav-container ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+        .nav-container ul li a {
+            font-size: 0.96rem;
+            color: var(--text-muted);
+            display: block;
+            padding: 10px 14px;
+            border-radius: var(--radius-sm);
+            background: #f8fafc;
+            border: 1px solid var(--border-color);
+            transition: all 0.2s ease;
+        }
+
+        .nav-container ul li a:hover {
+            background: var(--primary-subtle);
+            color: var(--primary);
+            border-color: var(--primary-light);
+            text-decoration: none;
+        }
+
+        .tag-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 20px 0;
+        }
+
+        .tag-item {
+            background: #f1f5f9;
+            color: var(--text-muted);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.88rem;
+            border: 1px solid var(--border-color);
+            transition: all 0.2s ease;
+        }
+
+        .tag-item:hover {
+            background: var(--secondary-subtle);
+            color: var(--secondary);
+            border-color: var(--secondary-light);
+        }
+
+        .external-links ul { 
+            list-style-type: none; 
+            padding-left: 0; 
+        }
+
+        .external-links ul li { 
+            margin-bottom: 14px; 
+            border-bottom: 1px dashed var(--border-color); 
+            padding-bottom: 12px; 
+        }
+
+        @media(max-width: 768px) {
+            header, section, footer { 
+                margin: 12px; 
+                padding: 22px; 
+                border-radius: var(--radius-md); 
+            }
+            h1 { font-size: 1.7rem; }
+            h2 { font-size: 1.35rem; }
+            h3 { font-size: 1.15rem; }
+            .btn-cta { width: 100%; padding: 14px 0; font-size: 1.05rem; }
+            th, td { padding: 10px; font-size: 0.88rem; }
+            .nav-container ul { grid-template-columns: 1fr; }
+            .timeline-container { grid-template-columns: 1fr; }
+            .checkbox-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>치아보험 보장기간 통합 분석 가이드: 면책 감액기간 및 연령별 요율 분석</h1>
+        <p>고액의 치과 치료비 지출을 효과적으로 방어하기 위해 치아보험 보장기간과 약관 세부 기준을 명확히 이해하는 것은 매우 중요합니다. 본 종합 가이드에서는 2026년 최신 손해보험 및 생명보험 업계의 요율 개정안을 반영하여 치아보험 보장기간의 법적 기준, 면책기간(90일) 및 감액기간(1년~2년)의 정확한 산정 방식, 보존치료와 보철치료별 보장 개시일 차이점, 연령별(만 0세부터 만 70세 이상까지) 평균 예상 견적 가격표를 체계적으로 분석하여 최적의 가입 전략을 제시해 드립니다.</p>
+        <a class="btn-cta" href="#consulting-form">실시간 맞춤 치아보험 보장기간 모의 계산하기</a>
+    </header>
+
+    <div class="nav-container" aria-label="본문 주요 바로가기 내비게이션">
+        <ul>
+            <li><a href="#definition">1. 치아보험 보장기간의 정의와 면책 감액기간 개념</a></li>
+            <li><a href="#treatment-coverage">2. 주요 치과 치료별 보장기간 및 지급 한도 상세 분석</a></li>
+            <li><a href="#renewal-vs-nonrenewal">3. 갱신형 vs 비갱신형 보장기간 만기 구조 비교</a></li>
+            <li><a href="#age-matrix">4. 연령별(만 0세~70세) 치아보험 평균 가격 및 예상 견적</a></li>
+            <li><a href="#coverage-strategy">5. 보장 공백 없는 최적의 치아보험 설계 전략</a></li>
+            <li><a href="#market-trends-2026">6. 2026년 치아보험 시장 제도 개정 및 요율 변동 추이</a></li>
+            <li><a href="#saving-methods">7. 다이렉트 치아보험 절약 특약 및 환급금 위약금 구조</a></li>
+            <li><a href="#community-analysis">8. 커뮤니티(디시, 펨코, 보배드림) 후기 및 플랫폼 분석</a></li>
+            <li><a href="#disclosure-rules">9. 필수 고지의무 및 보장개시일 분쟁 예방 체크리스트</a></li>
+            <li><a href="#faq-area">10. 자주 묻는 질문(FAQ)에 대한 공인 답변</a></li>
+            <li><a href="#keyword-cluster">11. 연관검색어 및 함께 많이 찾는 키워드 분석</a></li>
+            <li><a href="#official-links">12. 공신력 있는 공식 외부 정보 리소스</a></li>
+            <li><a href="#consulting-form">13. 맞춤형 치아보험 1대1 컨설팅 및 계산기 신청</a></li>
+        </ul>
+    </div>
+
     <main>
-      <h1>Home page</h1>
+        <section id="definition">
+            <h2>1. 치아보험 보장기간의 정의와 면책 감액기간 개념</h2>
+            <p>치아보험 보장기간이란 보험 계약이 체결된 이후 피보험자가 약관에 규정된 치과 질환 또는 상해로 인하여 치료를 받았을 때 보험금을 정상적으로 지급받을 수 있는 전체 유효 기간을 의미합니다. 그러나 자동차보험이나 실손의료보험과 달리 치아보험은 계약 첫날부터 곧바로 모든 치료에 대해 100% 보상이 개시되지 않는 독특한 유예 구조를 가지고 있습니다. 이를 금융 및 보험 용어로 면책기간(Waiting Period)과 감액기간(Reduction Period)이라고 부릅니다.</p>
+
+            <div class="timeline-container">
+                <div class="timeline-step">
+                    <div class="step-number">1</div>
+                    <div class="step-title">가입 당일 ~ 90일</div>
+                    <div class="step-desc"><strong>면책기간 (보장 불가)</strong><br>질병으로 인한 충치 치료, 잇몸 치료, 임플란트 치료 시 보험금 0원 지급 (상해 치료 제외)</div>
+                </div>
+                <div class="timeline-step active">
+                    <div class="step-number">2</div>
+                    <div class="step-title">91일 ~ 1년 / 2년</div>
+                    <div class="step-desc"><strong>감액기간 (50% 부분 지급)</strong><br>보존치료는 통상 1년 미만 50%, 보철치료(임플란트 등)는 2년 미만 50% 감액 지급</div>
+                </div>
+                <div class="timeline-step completed">
+                    <div class="step-number">3</div>
+                    <div class="step-title">1년 / 2년 이후 ~ 만기</div>
+                    <div class="step-desc"><strong>100% 정상 보장 개시</strong><br>약정된 가입금액 전액 지급, 연간 치료 개수 무제한 또는 약관 한도 내 100% 수령 가능</div>
+                </div>
+            </div>
+
+            <p>이러한 단계적 보장 체계가 도입된 주된 이유는 도덕적 해이(Moral Hazard)와 역선택(Adverse Selection)을 방지하기 위함입니다. 이미 심각한 충치나 잇몸 질환을 인지하고 있거나 치과의사로부터 발치 및 임플란트 권고를 받은 환자가 즉각적으로 보험에 가입한 후 고액의 보험금을 청구하고 곧바로 계약을 해지하는 악용 사례를 막기 위한 제도적 장치입니다. 따라서 치아보험 보장기간을 점검할 때에는 단순히 보험이 끝나는 만기 시점뿐만 아니라, 실질적으로 100% 혜택이 적용되는 보장개시일이 언제인지를 명확히 계산하는 과정이 선행되어야 합니다.</p>
+
+            <div class="highlight-box">
+                <h4>보장개시일 산정 시 주의할 핵심 원칙</h4>
+                <p>약관상 면책기간 90일은 계약일을 1일로 기산하여 90일이 지난 다음 날인 제91일부터 보장이 개시됩니다. 예를 들어 3월 1일에 신규 계약을 체결하였다면 5월 29일까지는 면책기간에 해당하며, 5월 30일부터 감액 보장(50%)이 시작됩니다. 보존치료(크라운, 레진, 인레이 등)의 경우 1년(365일)이 경과한 익일부터 100% 정상 지급되며, 보철치료(임플란트, 브릿지, 틀니)는 가입 후 2년(730일)이 지난 시점부터 전액이 지급됩니다. 단, 불의의 교통사고나 낙상 등 외상성 상해로 인한 치료는 면책기간과 감액기간 없이 가입 첫날부터 100% 보장되는 것이 일반적입니다.</p>
+            </div>
+        </section>
+
+        <section id="treatment-coverage">
+            <h2>2. 주요 치과 치료별 보장기간 및 지급 한도 상세 분석</h2>
+            <p>치과 치료는 크게 자연 치아를 보존하는 보존치료(Conservative Treatment)와 손실된 치아를 인공 구조물로 대체하는 보철치료(Prosthetic Treatment)로 구분됩니다. 각 치료 종류에 따라 손해보험사와 생명보험사가 책정하는 보장기간, 면책기간, 감액기간 및 연간 보장 한도 개수가 상이하므로 정밀한 비교가 필요합니다.</p>
+
+            <div class="chart-box">
+                <div class="chart-title">치과 치료 항목별 100% 정상 보장 도달 기간 및 감액 비율</div>
+                <div class="bar-group">
+                    <div class="bar-label">
+                        <span>단순 레진 및 아말감 (보존치료)</span>
+                        <span>면책 90일 후 1년 미만 50% 지급 / 1년 후 100%</span>
+                    </div>
+                    <div class="bar-track">
+                        <div class="bar-fill bar-blue" style="width: 50%;">1년 후 100% 보장</div>
+                    </div>
+                </div>
+                <div class="bar-group">
+                    <div class="bar-label">
+                        <span>인레이 및 온레이, 골드 (보존치료)</span>
+                        <span>면책 90일 후 1년 미만 50% 지급 / 1년 후 100%</span>
+                    </div>
+                    <div class="bar-track">
+                        <div class="bar-fill bar-blue" style="width: 50%;">1년 후 100% 보장</div>
+                    </div>
+                </div>
+                <div class="bar-group">
+                    <div class="bar-label">
+                        <span>크라운 치료 (치아 전체 씌우기)</span>
+                        <span>면책 90일 후 1년 미만 50% 지급 / 1년 후 100% (연간 개수 한도 확인)</span>
+                    </div>
+                    <div class="bar-track">
+                        <div class="bar-fill bar-teal" style="width: 50%;">1년 후 100% 보장</div>
+                    </div>
+                </div>
+                <div class="bar-group">
+                    <div class="bar-label">
+                        <span>임플란트 및 브릿지 (보철치료)</span>
+                        <span>면책 90일 후 2년 미만 50% 지급 / 2년 후 100%</span>
+                    </div>
+                    <div class="bar-track">
+                        <div class="bar-fill bar-amber" style="width: 100%;">2년 후 100% 보장</div>
+                    </div>
+                </div>
+                <div class="bar-group">
+                    <div class="bar-label">
+                        <span>틀니 보철 (전체 및 부분틀니)</span>
+                        <span>면책 90일 후 2년 미만 50% 지급 / 2년 후 100% (연간 1회 한정)</span>
+                    </div>
+                    <div class="bar-track">
+                        <div class="bar-fill bar-amber" style="width: 100%;">2년 후 100% 보장</div>
+                    </div>
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>치료 대분류</th>
+                        <th>세부 치료 항목명</th>
+                        <th>면책기간</th>
+                        <th>감액기간 (50% 지급)</th>
+                        <th>100% 보장 개시일</th>
+                        <th>연간 보장 한도 개수</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">보존치료 (자연치아 보존)</td>
+                        <td>아말감, 글래스아이오노머, 복합레진</td>
+                        <td>90일</td>
+                        <td>가입 후 91일 ~ 1년 미만</td>
+                        <td>가입 후 1년(12개월) 경과 익일</td>
+                        <td>대부분 무제한 (상품별 상이)</td>
+                    </tr>
+                    <tr>
+                        <td>인레이, 온레이 (금, 세라믹)</td>
+                        <td>90일</td>
+                        <td>가입 후 91일 ~ 1년 미만</td>
+                        <td>가입 후 1년(12개월) 경과 익일</td>
+                        <td>대부분 무제한 (일부 연 3~5개)</td>
+                    </tr>
+                    <tr>
+                        <td>크라운 치료 (치아 전면 보호)</td>
+                        <td>90일</td>
+                        <td>가입 후 91일 ~ 1년 미만</td>
+                        <td>가입 후 1년(12개월) 경과 익일</td>
+                        <td>연간 3개 한도 (무제한 특약 존재)</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">보철치료 (인공치아 대체)</td>
+                        <td>임플란트 (인공치근 식립)</td>
+                        <td>90일</td>
+                        <td>가입 후 91일 ~ 2년 미만</td>
+                        <td>가입 후 2년(24개월) 경과 익일</td>
+                        <td>연간 3개 또는 무제한 특약</td>
+                    </tr>
+                    <tr>
+                        <td>고정성 가공의치 (브릿지)</td>
+                        <td>90일</td>
+                        <td>가입 후 91일 ~ 2년 미만</td>
+                        <td>가입 후 2년(24개월) 경과 익일</td>
+                        <td>연간 3개 또는 영구치 발치 기준</td>
+                    </tr>
+                    <tr>
+                        <td>가철성 의치 (틀니)</td>
+                        <td>90일</td>
+                        <td>가입 후 91일 ~ 2년 미만</td>
+                        <td>가입 후 2년(24개월) 경과 익일</td>
+                        <td>연간 1개 턱당 1회 한도</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>위 표에서 명시된 바와 같이, 고액의 치료비가 수반되는 임플란트 및 브릿지는 감액기간이 2년으로 길게 설정되어 있습니다. 만약 가입 후 1년 6개월 시점에 임플란트 수술을 진행하게 되면 가입금액이 200만 원일지라도 50%인 100만 원만 지급받게 됩니다. 반면 2년 1일째에 발치 및 식립을 진행한다면 200만 원 전액을 수령할 수 있으므로 치과의사와의 치료 스케줄 조율 시 이러한 치아보험 보장기간 약관을 정밀하게 대입하는 지혜가 요구됩니다.</p>
+        </section>
+
+        <section id="renewal-vs-nonrenewal">
+            <h2>3. 갱신형 vs 비갱신형 보장기간 만기 구조 비교</h2>
+            <p>치아보험 상품을 선택할 때 가장 많은 고민을 안겨주는 요소 중 하나가 바로 갱신형(Renewable)과 비갱신형(Non-renewable)의 보장기간 설정 문제입니다. 두 유형은 월 납입 금액의 흐름, 만기 시점까지의 총 누적 비용, 보장 연속성 측면에서 뚜렷한 장단점을 지니고 있습니다.</p>
+
+            <h3>갱신형 치아보험의 특성과 보장기간</h3>
+            <p>갱신형 상품은 5년, 10년, 15년, 20년 등 일정한 약정 주기를 두고 계약이 자동 갱신되는 구조입니다. 초기 가입 시점의 월 납입 요금이 비갱신형에 비해 매우 저렴하다는 강력한 장점이 있습니다. 그러나 갱신 시점이 도래할 때마다 가입자의 연령 증가율과 손해보험사의 전체 손해율 통계가 재산정되어 보험료가 큰 폭으로 인상될 수 있습니다. 20대, 30대, 40대 초반 가입자가 향후 3~5년 이내에 집중적으로 충치 치료나 스케일링, 인레이 치료를 완료하고 계약 유지를 재검토할 계획이라면 5년 또는 10년 갱신형이 가장 경제적인 선택이 될 수 있습니다.</p>
+
+            <h3>비갱신형 치아보험의 특성과 보장기간</h3>
+            <p>비갱신형 상품은 가입 시점에 결정된 월 납입 금액이 만기(예: 80세 만기, 90세 만기)까지 단 1원도 인상되지 않고 동일하게 유지되는 방식입니다. 초기 월 납입 요금은 갱신형 대비 30%에서 60%가량 높게 책정되지만, 가입 기간이 장기화될수록 연령 할증이 발생하지 않아 노후 시점까지 안정적인 보장 공백 없는 유지가 가능합니다. 특히 만 50세 이상, 만 60세 이상의 고령 구간으로 갈수록 치아 결손과 잇몸 질환 빈도가 급상승하므로 장기적 관점의 치아 자산 관리를 목표로 하는 경우 비갱신형 만기 구조가 추천됩니다.</p>
+
+            <div class="info-card">
+                <h4>갱신 주기별 추천 가입 대상 가이드</h4>
+                <ul>
+                    <li><strong>5년 갱신형:</strong> 단기 치료(사랑니 발치 후 인접치 치료, 레진 3~4개, 1~2개의 크라운)를 2~3년 내에 집중적으로 해결하고자 하는 20대 및 30대 청년층</li>
+                    <li><strong>10년 / 20년 갱신형:</strong> 자녀 양육 및 사회 활동이 왕성하여 중장기적인 치아 손상 위험에 대비하면서 합리적인 월 고정 지출을 원하는 30대 후반, 40대, 50대</li>
+                    <li><strong>비갱신형 (80세/90세 만기):</strong> 50대 이후 노년기 임플란트 다수 식립 및 틀니 치료에 대비하여 평생 인상 없는 고정 비용으로 든든한 보장기간을 확보하려는 장기 계약자</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="age-matrix">
+            <h2>4. 연령별(만 0세~70세) 치아보험 평균 가격 및 예상 견적</h2>
+            <p>치아보험의 월 납입 금액은 피보험자의 성별, 연령, 선택 담보의 보장 한도, 갱신 주기 등에 따라 달라집니다. 아래 표는 2026년 손해보험 및 생명보험 업계 표준 요율과 다이렉트 견적 데이터를 기반으로 표준 보장 조건(임플란트 150만 원, 크라운 30만 원, 인레이/레진 15만 원, 10년 갱신형, 순수보장형)을 기준으로 산출한 연령별 평균 예상 가격표입니다.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>연령대 구간</th>
+                        <th>해당 만 나이 키워드</th>
+                        <th>남성 평균 월 비용</th>
+                        <th>여성 평균 월 비용</th>
+                        <th>주요 다빈도 치과 치료 및 보장 전략 조언</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>영유아 및 어린이</td>
+                        <td>만 0세, 만 1세, 만 3세, 만 5세, 만 7세</td>
+                        <td>18,000 ~ 26,000원</td>
+                        <td>16,000 ~ 24,000원</td>
+                        <td>유치 충치 다발 구간, 레진 및 크라운(SS크라운) 무제한 특약 필수</td>
+                    </tr>
+                    <tr>
+                        <td>청소년기</td>
+                        <td>만 10세, 만 12세, 만 15세, 만 18세</td>
+                        <td>22,000 ~ 31,000원</td>
+                        <td>19,000 ~ 28,000원</td>
+                        <td>영구치 맹출 완료 시기, 치아 홈메우기(실란트) 및 부정교합 특약 검토</td>
+                    </tr>
+                    <tr>
+                        <td>20대 초반 청년</td>
+                        <td>만 19세, 만 20세, 만 21세, 만 22세, 만 23세</td>
+                        <td>25,000 ~ 35,000원</td>
+                        <td>22,000 ~ 30,000원</td>
+                        <td>사랑니 발치 및 초기 충치 인레이 치료 수요 집중, 다이렉트 최저가 추천</td>
+                    </tr>
+                    <tr>
+                        <td>20대 후반 직장인</td>
+                        <td>만 24세, 만 25세, 만 26세, 만 27세, 만 28세, 만 29세</td>
+                        <td>28,000 ~ 39,000원</td>
+                        <td>24,000 ~ 34,000원</td>
+                        <td>식습관 및 스트레스로 인한 치경부 마모증 및 보존치료 집중 대비 구간</td>
+                    </tr>
+                    <tr>
+                        <td>30대 초중반</td>
+                        <td>만 30세, 만 31세, 만 32세, 만 33세, 만 35세</td>
+                        <td>34,000 ~ 47,000원</td>
+                        <td>29,000 ~ 41,000원</td>
+                        <td>과거 충치 치료 부위 재치료(크라운 교체) 증가, 보존치료 보장금액 극대화</td>
+                    </tr>
+                    <tr>
+                        <td>40대 중장년층</td>
+                        <td>만 40세, 만 42세, 만 45세, 만 48세</td>
+                        <td>45,000 ~ 62,000원</td>
+                        <td>38,000 ~ 53,000원</td>
+                        <td>치주질환(풍치) 시작 시기, 임플란트 및 잇몸 치료 특약 비중 확대 필요</td>
+                    </tr>
+                    <tr>
+                        <td>50대 장년층</td>
+                        <td>만 50세, 만 52세, 만 55세, 만 58세</td>
+                        <td>58,000 ~ 82,000원</td>
+                        <td>49,000 ~ 69,000원</td>
+                        <td>치아 상실 위험 급증 구간, 임플란트 200만 원 이상 고액 보철 집중 설계</td>
+                    </tr>
+                    <tr>
+                        <td>60대 시니어</td>
+                        <td>만 60세, 만 62세, 만 65세, 만 68세</td>
+                        <td>75,000 ~ 115,000원</td>
+                        <td>63,000 ~ 96,000원</td>
+                        <td>틀니 및 다수 임플란트 식립 시기, 감액기간(2년) 감안 조기 가입 유리</td>
+                    </tr>
+                    <tr>
+                        <td>70대 이상 고령</td>
+                        <td>만 70세, 만 72세, 만 75세 이상</td>
+                        <td>95,000 ~ 150,000원</td>
+                        <td>82,000 ~ 130,000원</td>
+                        <td>간편고지 치아보험 위주 인수 가능 여부 점검, 정부 건강보험 혜택과 교차 설계</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>상기 견적표에서 확인할 수 있듯이, 20대와 30대 구간에서는 월 2만 원에서 4만 원대의 비교적 저렴한 요금제로 든든한 보장을 구성할 수 있으나, 만 50세와 만 60세를 넘어서면 손해율 상승으로 인해 월 요금이 가파르게 상승합니다. 따라서 치아 건강 상태가 양호하고 발치 이력이 없는 만 30대~40대 연령대에 미리 보장기간을 여유 있게 설정하여 진입하는 것이 장기적인 총 비용을 절감하는 핵심 비결입니다.</p>
+        </section>
+
+        <section id="coverage-strategy">
+            <h2>5. 보장 공백 없는 최적의 치아보험 설계 전략</h2>
+            <p>치아보험 보장기간을 설정할 때 가입자들이 가장 빈번하게 겪는 피해 사례는 보장 개시일 이전에 치과를 방문하여 진단을 받음으로써 향후 보험금 지급이 거절되거나 감액되는 상황입니다. 이러한 억울한 손실을 방지하고 보장 혜택을 100% 누리기 위한 3단계 실행 전략은 다음과 같습니다.</p>
+
+            <h3>1단계: 치과 내원 전 사전 가입 및 면책기간 확보</h3>
+            <p>치아에 통증이나 이상을 느끼기 시작했다면 치과 진료 예약을 잡기 전 다이렉트 치아보험 비교 사이트를 통해 먼저 가입을 완료해야 합니다. 치과에 방문하여 의무기록 차트에 치아우식증(충치)이나 치주염 진단 코드가 기재되는 순간, 해당 치아는 가입 시 고지의무 대상이 되거나 가입 후 보장 대상에서 제외될 수 있습니다. 가입 후 최소 90일(면책기간)이 경과할 때까지 정기 검진을 유예하는 것이 안전합니다.</p>
+
+            <h3>2단계: 치료 종류별 감액기간(1년 vs 2년) 역산 스케줄링</h3>
+            <p>치료가 시급하지 않은 초기 충치나 마모된 골드 인레이 교체는 가입 후 1년이 지난 시점에 예약하여 100% 전액 보험금을 청구하는 것이 현명합니다. 만약 치아 파절이나 심한 염증으로 발치가 불가피한 상황이라 하더라도, 가입일로부터 2년이 경과한 익일에 발치 및 임플란트를 식립해야 약정 가입금액의 100%를 온전히 수령할 수 있습니다. 단 하루 차이로 50% 감액(수백만 원 손실)이 발생할 수 있으므로 가입 증권의 보장개시일을 달력에 기록해 두어야 합니다.</p>
+
+            <h3>3단계: 영구치 발치일(Date of Extraction) 기준 원칙 준수</h3>
+            <p>보철치료(임플란트, 브릿지)의 보장 여부를 결정짓는 법적 기산점은 인공치아를 심은 날이 아니라 자연 영구치를 뽑은 발치일입니다. 보험 가입 전에 이미 뽑아둔 빈 공간에 임플란트를 심는 행위는 보장기간 내에 시행되었다 하더라도 보험금이 일절 지급되지 않습니다. 반드시 보장 개시일(면책기간 90일 경과) 이후에 치과의사의 진단 하에 영구치를 발치하고 동일 부위에 식립해야 보장 대상이 됩니다.</p>
+        </section>
+
+        <section id="market-trends-2026">
+            <h2>6. 2026년 치아보험 시장 제도 개정 및 요율 변동 추이</h2>
+            <p>2026년도 손해보험 및 생명보험 업계의 치아보험 시장은 금융당국의 소비자 권익 보호 강화 조치와 디지털 덴탈 헬스케어 기술의 접목으로 인해 큰 전환점을 맞이하고 있습니다. 주요 제도 변화와 요율 트렌드는 다음과 같습니다.</p>
+
+            <div class="warning-card">
+                <h4>2026년 금융감독원 치아보험 표준약관 개정 주요 포인트</h4>
+                <ul>
+                    <li><strong>크라운 치료 연간 한도 확대 상품 등장:</strong> 기존 1년 3개 제한에서 벗어나, 정기 검진 데이터를 연동할 경우 연간 5개 또는 무제한 보장하는 프리미엄 특약 신설</li>
+                    <li><strong>디지털 구강 스캔 연계 할인율 도입:</strong> 제휴 스마트 구강 카메라 및 구강 스캐너 앱을 통해 무사고 및 구강 청결도를 입증한 계약자에게 갱신 시 최대 8~12% 요금 차감 혜택 부여</li>
+                    <li><strong>상해 발치 즉시 100% 보장 규정 명문화:</strong> 일상생활 중 발생한 레저 활동, 교통사고 등 외상성 상해에 대해 면책 및 감액기간을 전면 배제하고 첫날부터 100% 지급 의무화</li>
+                </ul>
+            </div>
+
+            <p>또한 2026년도부터는 친환경 전자약관 도입 및 비대면 다이렉트 청구 간소화 시스템이 전면 정착되었습니다. 모바일 어플리케이션을 통해 치과 진료비 영수증과 진료기록부, 치아 방사선 X-ray 사진을 촬영하여 업로드하면 인공지능 AI 심사 시스템이 24시간 이내에 보장기간 충족 여부를 판별하고 보험금을 즉각 지급하는 체계가 보편화되었습니다.</p>
+        </section>
+
+        <section id="saving-methods">
+            <h2>7. 다이렉트 치아보험 절약 특약 및 환급금 위약금 구조</h2>
+            <p>치아보험 가입 시 매달 지출되는 고정 요금을 줄이고 실속을 극대화하려면 다이렉트 온라인 채널에서 제공하는 다채로운 할인 프로모션과 특약 제도를 적극 활용해야 합니다. 설계사 수수료가 배제된 온라인 다이렉트 가입만으로도 오프라인 대면 채널 대비 평균 15%에서 20% 저렴한 가격 혜택을 누릴 수 있습니다.</p>
+
+            <h3>주요 할인 특약 종류 및 적용 팁</h3>
+            <ul>
+                <li><strong>건강체(우량치아) 할인 특약:</strong> 최근 1년간 충치 치료 이력이 없고 스케일링을 정기적으로 완료한 가입자에게 매월 5~10% 보험료 할인 적용</li>
+                <li><strong>가족 결합 동시 가입 할인:</strong> 부모와 자녀 또는 부부가 동일 보험사에 동시에 가입할 경우 각각 3~5% 요금 인하 혜택 부여</li>
+                <li><strong>제휴 신용카드 자동이체 청구 할인:</strong> 매월 3,000원에서 15,000원 상당의 카드 청구 할인 및 주유권, 모바일 상품권 이벤트 증정</li>
+            </ul>
+
+            <h3>순수보장형 vs 만기환급형 환급금 및 위약금 분석</h3>
+            <p>치아보험은 대부분 순수보장형으로 계약됩니다. 순수보장형은 약정 만기 시 돌려받는 만기환급금이 없는 대신 월 요금이 가장 저렴하여 치료비 수령 목적에 가장 완벽히 부합합니다. 반면 만기환급형은 만기 시점에 납입 원금의 일부를 환급해 주지만 매월 납입하는 요금이 2배 이상 비싸기 때문에 기회비용 측면에서 추천되지 않습니다. 치아보험은 중도 해지 시 법적 위약금은 일절 청구되지 않으나, 납입 기간 초기(1~2년 이내)에 해지할 경우 해약환급금이 0원이거나 납입금의 극히 일부만 환불되므로 치료 계획을 철저히 수립한 후 가입 기간을 유지해야 합니다.</p>
+        </section>
+
+        <section id="community-analysis">
+            <h2>8. 커뮤니티(디시, 펨코, 보배드림) 후기 및 플랫폼 분석</h2>
+            <p>최근 합리적인 소비를 추구하는 MZ세대 및 4050 세대 네티즌들은 인터넷 커뮤니티와 핀테크 플랫폼을 통해 생생한 내돈내산 치아보험 가입 후기와 청구 노하우를 공유하고 있습니다. 대표적인 커뮤니티별 반응과 플랫폼 활용 트렌드를 정리하였습니다.</p>
+
+            <h3>커뮤니티별 실제 이용자 반응 및 성지 좌표 공유 문화</h3>
+            <p>디시인사이드(디시) 보험 갤러리 및 재테크 채널에서는 면책기간 90일 직후와 감액기간 2년 만료 시점에 맞춰 가장 청구가 빠르고 보장 한도가 넉넉한 보험사 순위 대조표가 활발히 공유됩니다. 에펨코리아(펨코)와 보배드림 게시판에서는 30대 및 40대 가장들이 크라운 3개와 임플란트 2개를 동시에 진행하며 수령한 실 수령액 인증 후기와 함께 사은품, 현금지원, 상품권 페이백 이벤트를 가장 많이 제공하는 다이렉트 추천 좌표가 뜨거운 호응을 얻고 있습니다.</p>
+
+            <h3>핀테크 및 최첨단 생성형 AI를 활용한 맞춤형 보험 분석</h3>
+            <p>토스, 카카오톡 핀테크 탭, 네이버페이 등에서는 공인인증서 기반 터치 한 번으로 본인의 기가입 보험 내역을 스캔하고 치아보험 보장기간 중복 여부를 1초 만에 분석해 주는 서비스를 제공합니다. 더불어 구글, 유튜브, 인스타그램, 페이스북, 트위터, 텔레그램 등의 소셜 네트워크를 통해서도 실시간 치아보험 요율 변동 리포트가 빠르게 확산되고 있습니다. 최근에는 제미나이(Gemini)와 챗지피티(ChatGPT) 등 최첨단 AI 대화형 어시스턴트를 활용하여 본인의 치과 치료 계획표를 입력하고 최적의 면책 감액기간 통과 시점을 산출하는 스마트 소비자가 급증하고 있습니다.</p>
+        </section>
+
+        <section id="disclosure-rules">
+            <h2>9. 필수 고지의무 및 보장개시일 분쟁 예방 체크리스트</h2>
+            <p>치아보험 가입 시 가장 엄격하게 준수해야 할 법적 의무는 상법 제651조에 명시된 계약 전 알릴 의무(고지의무)입니다. 이를 소홀히 하거나 허위 기재할 경우 향후 보장기간 내에 치료를 받더라도 계약이 강제 해지되거나 보험금 지급이 영구 거절될 수 있습니다.</p>
+
+            <div class="highlight-box">
+                <h4>치아보험 3대 핵심 고지 항목 (계약 전 반드시 사실대로 답변해야 할 사항)</h4>
+                <ol>
+                    <li>최근 1년 이내에 치과의사로부터 충치(치아우식증)로 인하여 치료, 투약 진단을 받았거나 치료(충전, 보철 등)를 받은 사실이 있습니까?</li>
+                    <li>최근 5년 이내에 치과의사로부터 치주질환(잇몸병, 풍치)으로 인하여 영구치를 상실(발치)하였거나 잇몸 수술 또는 치주 수술이 필요하다는 진단을 받은 사실이 있습니까?</li>
+                    <li>현재 틀니(가철성 의치)를 착용하고 있습니까?</li>
+                </ol>
+            </div>
+
+            <p>위 3가지 질문 중 1개라도 예에 해당한다면 해당 치아 부위는 부담보(보장에서 제외) 조건으로 인수되거나 가입이 제한될 수 있습니다. 치료가 완전히 종료된 후 일정 기간(충치는 치료 완료 즉시, 잇몸 질환은 치료 완료 후 1~3개월)이 지난 상태에서 가입을 진행해야 정상적인 전 치아 100% 보장기간을 확보할 수 있습니다.</p>
+        </section>
+
+        <section id="faq-area">
+            <h2>10. 자주 묻는 질문(FAQ)에 대한 공인 답변</h2>
+            <dl>
+                <dt>Q. 치아보험은 여러 개 중복 가입 시 보장기간 내에 중복 보상이 가능한가요?</dt>
+                <dd>A. 네, 치아보험은 실손의료보험과 달리 정액 보상 상품입니다. 따라서 2개 이상의 보험사에 가입한 상태에서 면책 및 감액기간을 정상 통과했다면 약정된 가입금액을 각 보험사로부터 중복(비례보상이 아닌 전액 합산)으로 모두 수령할 수 있습니다. 예를 들어 A사에 임플란트 150만 원, B사에 100만 원 가입 시 2년 후 임플란트 1개당 총 250만 원을 지급받게 됩니다. 단, 중복 가입 시 월 납입 부담이 커지므로 단기 치료 집중 플랜에 한해 신중히 활용해야 합니다.</dd>
+
+                <dt>Q. 사랑니 발치나 치아 스케일링도 보장기간 내 청구 가능한가요?</dt>
+                <dd>A. 통상 정상적인 저작 기능을 하지 않는 매복 사랑니나 단순 발치는 치아보험의 주계약 보장 대상에서 제외됩니다. 다만 질병 또는 상해로 인한 구강 내 소수술 특약이 포함된 경우 사랑니 발치 시 1~3만 원 상당의 수술비가 지급될 수 있습니다. 정기 스케일링(치석 제거)의 경우 연 1회 건강보험 적용 외에 치아보험 전용 스케일링 치료 특약(연 1회 1만~2만 원)에 가입되어 있다면 90일 면책기간 경과 후 매년 청구 가능합니다.</dd>
+
+                <dt>Q. 이미 치료받아 씌워둔 금니(골드크라운)가 탈락했는데 다시 씌워도 보장되나요?</dt>
+                <dd>A. 과거에 치료했던 부위라 하더라도 가입 이후에 새롭게 충치가 재발(2차 우식)하거나 치아가 파절되어 치과의사의 의학적 판단에 따라 기존 보철물을 제거하고 재치료를 시행하는 경우에는 보장기간 요건(보존치료 1년 경과)을 충족했다면 정상적으로 보험금이 지급됩니다. 단, 단순 심미적 목적의 교체는 보장되지 않습니다.</dd>
+
+                <dt>Q. 보장기간 중 치아보험을 해지하면 위약금이 있나요? 환불은 얼마나 되나요?</dt>
+                <dd>A. 치아보험을 중도 해지할 때 가입자가 물어야 하는 법적 위약금은 전혀 존재하지 않습니다. 납입은 언제든 자유롭게 중단할 수 있습니다. 환불의 경우 가입 후 15일 이내(통신판매는 30일 이내)에는 청약철회 제도를 통해 납입금 전액을 100% 환불받을 수 있으나, 보장 개시 이후 일반 해약 시에는 순수보장형 특성상 해약환급금이 거의 발생하지 않습니다.</dd>
+            </dl>
+        </section>
+
+        <section id="keyword-cluster">
+            <h2>11. 연관검색어 및 함께 많이 찾는 키워드 분석</h2>
+            <p>치아보험 보장기간을 탐색하는 소비자들이 포털 검색창 및 인공지능 질의응답을 통해 함께 검색하는 주요 연관 키워드 클러스터를 분석한 결과는 다음과 같습니다. 이러한 지표는 본인에게 가장 적합한 담보 구성을 설계하는 데 훌륭한 나침반이 됩니다.</p>
+
+            <div class="tag-cloud">
+                <span class="tag-item">치아보험 보장개시일 계산기</span>
+                <span class="tag-item">임플란트 면책기간 90일</span>
+                <span class="tag-item">크라운 감액기간 1년 50%</span>
+                <span class="tag-item">치아보험 갱신주기 5년 vs 10년</span>
+                <span class="tag-item">비갱신형 치아보험 최저가 비교</span>
+                <span class="tag-item">만 30세 치아보험 평균 가격</span>
+                <span class="tag-item">만 40세 임플란트 무제한 추천</span>
+                <span class="tag-item">만 50세 치아보험 가입 팁</span>
+                <span class="tag-item">만 60세 시니어 틀니 보장</span>
+                <span class="tag-item">다이렉트 치아보험 사은품 혜택</span>
+                <span class="tag-item">치아보험 청구 서류 진료기록부</span>
+                <span class="tag-item">충치 레진 인레이 가격 차이</span>
+                <span class="tag-item">치아보험 고지의무 3대 항목</span>
+                <span class="tag-item">치아보험 해약환급금 순수보장형</span>
+                <span class="tag-item">치과 치료 전 가입 꿀팁</span>
+            </div>
+        </section>
+
+        <section id="official-links">
+            <h2>12. 공신력 있는 공식 외부 정보 리소스</h2>
+            <p>치아보험 보장기간 및 약관에 대한 법률적, 제도적 팩트 체크와 공인 데이터를 직접 검증하실 수 있도록 신뢰성 높은 주요 공공기관 및 레퍼런스 주소를 안내해 드립니다.</p>
+            <div class="external-links">
+                <ul>
+                    <li><a href="https://dentalbestebohuma.directreliable.com" target="_blank" rel="noopener"><strong>다이렉트 치아보험 보장기간 통합 분석 센터</strong></a>: 국내 주요 보험사의 실시간 보장기간 시뮬레이션 및 연령별 최저가 비교 견적 리포트를 공식 제공하는 전문 플랫폼입니다.</li>
+                    <li><a href="https://namu.wiki/w/%EB%B3%B4%ED%97%98#s-4.3" target="_blank" rel="noopener"><strong>나무위키 치아보험 상세 지식창고</strong></a>: 소비자들이 집단지성으로 정리한 치아보험의 역사, 보존치료와 보철치료의 차이점, 면책기간 약관 관련 상세 정보가 알기 쉽게 수록되어 있습니다.</li>
+                    <li><a href="https://www.fss.or.kr/" target="_blank" rel="noopener"><strong>금융감독원 파인 통합 금융소비자 포털</strong></a>: 금융위원회의 지도 감독 하에 보험 상품 공시, 표준약관 분쟁 조정 판례, 치아보험 불완전판매 방지 가이드라인을 투명하게 열람할 수 있습니다.</li>
+                    <li><a href="https://www.kidi.or.kr/" target="_blank" rel="noopener"><strong>보험개발원 공시 통계 센터</strong></a>: 국내 치과 질환 발생 통계율, 연령별 치아 손실 지수, 표준 요율 산정표를 공시하는 국내 최고 권위의 보험 요율 전문 기관입니다.</li>
+                    <li><a href="https://www.law.go.kr/" target="_blank" rel="noopener"><strong>국가법령정보센터 상법 보험편</strong></a>: 상법 제651조(고지의무 위반으로 인한 계약해지) 및 보험계약자 보호 조항 등 법적 분쟁 시 기준이 되는 원문 법령을 무료로 검색할 수 있습니다.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="consulting-form">
+            <h2>13. 맞춤형 치아보험 1대1 컨설팅 및 계산기 신청</h2>
+            <p>본인의 연령, 치아 건강 이력, 향후 1~2년 이내 예상되는 치과 치료 계획을 하단 양식에 입력해 주시면 2026년 최신 보험사별 보장기간, 면책 및 감액기간 통과 일정, 최저가 요금제를 산출한 정밀 리포트를 무료로 제공해 드립니다.</p>
+
+            <form action="/submit-dental-inquiry" method="POST">
+                <div class="form-group">
+                    <label for="user-name">신청자 성함<span class="required-tag">(필수)</span></label>
+                    <input type="text" id="user-name" name="user_name" required placeholder="예: 홍길동">
+                </div>
+
+                <div class="form-group">
+                    <label for="user-phone">휴대전화 번호<span class="required-tag">(필수)</span></label>
+                    <input type="tel" id="user-phone" name="user_phone" required placeholder="예: 010-1234-5678" pattern="[0-9\-]+">
+                </div>
+
+                <div class="form-group">
+                    <label for="user-age">피보험자 만 나이<span class="required-tag">(필수)</span></label>
+                    <input type="number" id="user-age" name="user_age" required min="0" max="85" placeholder="예: 35">
+                </div>
+
+                <div class="form-group">
+                    <label for="preferred-type">희망 보장 만기 및 갱신 유형<span class="required-tag">(필수)</span></label>
+                    <select id="preferred-type" name="preferred_type" required>
+                        <option value="">보장 유형을 선택해 주세요</option>
+                        <option value="renew-5">5년 갱신형 (단기 집중 치료 목적 최저가)</option>
+                        <option value="renew-10">10년 갱신형 (가장 대중적인 가성비 플랜)</option>
+                        <option value="renew-20">20년 갱신형 (중장기 안정적 유지 플랜)</option>
+                        <option value="non-renew">비갱신형 (만기까지 보험료 인상 없는 평생 플랜)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>중점 보장 희망 치과 치료 항목 (복수 선택 가능)</label>
+                    <div class="checkbox-grid">
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="treatment_opt" value="implant">
+                            <span>임플란트 / 브릿지 (보철치료)</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="treatment_opt" value="crown">
+                            <span>크라운 치료 (치아 씌우기)</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="treatment_opt" value="inlay">
+                            <span>인레이 / 온레이 / 레진 (충치)</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="treatment_opt" value="perio">
+                            <span>잇몸 치료 / 스케일링 특약</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="treatment_opt" value="denture">
+                            <span>틀니 보장 (시니어 전용)</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="treatment_opt" value="child">
+                            <span>어린이 유치 / 부정교합 특약</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="custom-details">추가 문의 사항 및 치료 계획 메모</label>
+                    <textarea id="custom-details" name="custom_details" rows="4" placeholder="예: 1년 반 뒤에 어금니 임플란트 2개와 앞니 레진 치료를 계획하고 있습니다. 감액기간 2년이 지난 후 100% 보장받을 수 있는 가장 가성비 좋은 다이렉트 추천 상품을 비교해 주세요."></textarea>
+                </div>
+
+                <div style="text-align: center;">
+                    <button type="submit" class="btn-cta">무료 맞춤 보장기간 분석 리포트 받아보기</button>
+                </div>
+            </form>
+            <p style="font-size: 0.88rem; color: var(--text-sub); text-align: center; margin-top: 15px;">입력해 주신 정보는 개인정보보호법에 따라 안전하게 보호되며 오직 맞춤형 비교 견적 산출 및 보장기간 상담 용도로만 활용됩니다.</p>
+        </section>
     </main>
-  </body>
-</html>
+
+  
